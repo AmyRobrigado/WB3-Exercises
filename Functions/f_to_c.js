@@ -2,10 +2,13 @@
 
 function convertFtoC(currentTemp, celsiusTemp)
 {
-    let fahrenheit = 92;
-    let celsius = 5/9 - 32;
-
-    console.log("The current temperature is " + );
+  let fahrenheit = currentTemp;
+  let convertTemp = (fahrenheit - 32) * 5/9; 
+console.log(convertTemp);
 }
-
-displayconverFtoC()
+convertFtoC(212);
+convertFtoC(90);
+convertFtoC(72);
+convertFtoC(32);
+convertFtoC(0);
+convertFtoC(-40);
