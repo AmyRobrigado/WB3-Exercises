@@ -18,4 +18,4 @@ function favoritePlace(message) {
     console.log(message);
 }
 
-favoritePlace("My favorite place to be is Kinokuniya, I love shopping for books and hanging out in the cafe. ")
+favoritePlace("My favorite place to be is Kinokuniya, I love shopping for books and hanging out in the cafe.")
